@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38658797266E1DFB00DB9EFD /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38658796266E1DFB00DB9EFD /* RecipeTabView.swift */; };
 		38C5DB83266C9E5200CDB3E8 /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5DB82266C9E5200CDB3E8 /* Recipe_List_App.swift */; };
 		38C5DB85266C9E5200CDB3E8 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5DB84266C9E5200CDB3E8 /* RecipeListView.swift */; };
 		38C5DB87266C9E5500CDB3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C5DB86266C9E5500CDB3E8 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38658796266E1DFB00DB9EFD /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		38C5DB7F266C9E5200CDB3E8 /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C5DB82266C9E5200CDB3E8 /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
 		38C5DB84266C9E5200CDB3E8 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		38C5DB93266C9E7A00CDB3E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				38658796266E1DFB00DB9EFD /* RecipeTabView.swift */,
 				38C5DB84266C9E5200CDB3E8 /* RecipeListView.swift */,
 				38C5DBA5266CD89E00CDB3E8 /* RecipeDetailView.swift */,
 			);
@@ -200,6 +203,7 @@
 				38C5DB85266C9E5200CDB3E8 /* RecipeListView.swift in Sources */,
 				38C5DB83266C9E5200CDB3E8 /* Recipe_List_App.swift in Sources */,
 				38C5DBA3266CA1F800CDB3E8 /* DataService.swift in Sources */,
+				38658797266E1DFB00DB9EFD /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
