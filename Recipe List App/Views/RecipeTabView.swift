@@ -18,6 +18,7 @@ struct RecipeTabView: View {
                         Image(systemName: "star.fill")
                         Text("Featured")
                     }
+                    
                 }
             
             RecipeListView()
