@@ -75,7 +75,8 @@ struct RecipeFeaturedView: View {
                     }
                     
                 }
-                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic)).indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
+                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+                .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
             }
             
             VStack(alignment: .leading, spacing: 10) {
